@@ -1,0 +1,31 @@
+'varlist':
+  -  'nL1PuppiCands'
+  -  'L1PuppiCands_pt'
+  -  'L1PuppiCands_eta'
+  -  'L1PuppiCands_phi'
+  -  'L1PuppiCands_charge'
+  -  'L1PuppiCands_pdgId'
+  -  'L1PuppiCands_puppiWeight'
+
+'varlist_mc':
+  -  'genMet_pt'
+  -  'genMet_phi'
+
+'d_encoding':
+  'L1PuppiCands_charge':
+    -999.0 : 0
+    -1.0   : 1
+    0.0    : 2
+    1.0    : 3
+  'L1PuppiCands_pdgId':
+    -999.0 : 0
+    -211.0 : 1
+    -130.0 : 2
+    -22.0  : 3
+    -13.0  : 4
+    -11.0  : 5
+    11.0   : 5
+    13.0   : 4
+    22.0   : 3
+    130.0  : 2
+    211.0  : 1
